@@ -1,7 +1,7 @@
 'use client'
-import { use, useState } from "react"
+import { useState } from "react"
 
-const home = () => {
+const Home = () => {
   const [task, setTask] = useState('')
   const [todos, setTodos] = useState([])
   const addTodo = () => {
@@ -48,6 +48,6 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
 
 
